@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>레고 1</title>
+	<style type="text/css">
+		@font-face {
+		    font-family: 'GangwonEduPowerExtraBoldA';
+		    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
+		}
+		.f1 {font-family: 'GangwonEduPowerExtraBoldA'; font-size:5rem ; margin: 0px; padding-left: 50px; padding-top: 35px;}
+
+		.line {border: 1px solid red;}
+		.container {position: relative;}
+		.w1{width:}
+		.ab {position: absolute;}
+
+				
+	</style>
+</head>
+<body style="margin: 0px; background-color:rgb(255, 240, 211);">
+
+	<section>
+		<div style=" name:중앙 기본 틀; background-color:white;  width: 80vw; height: 100vh; position: absolute; left: 50%; transform: translateX(-50%)">
+
+			<div style="name: 노랑 사각형; background-color: rgb(255, 211, 90);  width: 80vw; height: 150px;">
+				<p class="f1">Let's build it!</p>
+			</div>
+
+			<div style="padding-top: 60px; padding-bottom: 30px; left: 50%; transform: translateX(12%)">
+				<img src="lego7.png" style="width:503px; height: auto;" >
+				<img src="lego71.png" style="width:503px; height: auto;" >
+			</div>
+
+			<div style="width:100vw;" class="container">
+				<img src="lego1.png" style="width:114px; height: auto; left:3%;" id="lg1" class="ab">
+				<img src="lego1.png" style="width:114px; height: auto; left:3%;" id="lg2" class="ab">
+				<img src="lego1.png" style="width:114px; height: auto; left:3%;" id="lg3" class="ab">
+
+				<img src="lego2.png" style="width:152px; height: auto; left:12%;" id="lg4" class="ab">
+				<img src="lego2.png" style="width:152px; height: auto; left:12%;" id="lg5" class="ab">
+
+				<img src="lego3.png" style="width:152px; height: auto; left:25%;"id="lg6" class="ab">
+
+				<img src="lego4.png" style="width:228px; height: auto; left:36%;" id="lg7" class="ab">
+
+				<img src="lego5.png" style="width:228px; height: auto; left:50%;" id="lg8" class="ab">
+				<img src="lego5.png" style="width:228px; height: auto; left:50%;" id="lg9" class="ab">
+
+				<img src="lego6.png" style="width:190px; height: auto; left:66%;" id="lg10" class="ab"> 
+			</div>
+			
+	
+
+		</div>
+		
+	</section>
+
+	<script type="text/javascript">
+		// lg1
+
+    lg1.onmousedown = function(event) {
+	  lg1.style.position = 'absolute';
+	  lg1.style.zIndex = 1000;
+
+	  document.body.append(lg1);
+
+	  function moveAt(pageX, pageY) {
+	    lg1.style.left = pageX - lg1.offsetWidth / 2 + 'px';
+	    lg1.style.top = pageY - lg1.offsetHeight / 2 + 'px';
+	  }
+
+	  moveAt(event.pageX, event.pageY);
+
+	  function onMouseMove(event) {
+	    moveAt(event.pageX, event.pageY);
+	  }
+
+	  document.addEventListener('mousemove', onMouseMove);
+
+	  lg1.onmouseup = function() {
+	    document.removeEventListener('mousemove', onMouseMove);
+	    lg1.onmouseup = null;
+	  };
+
+		  lg1.ondragstart = function() {
+		  	return false;
+			};
+
+	};
+
+		// lg2
+
+    lg2.onmousedown = function(event) {
+	  lg2.style.position = 'absolute';
+	  lg2.style.zIndex = 1000;
+
+	  document.body.append(lg2);
+
+	  function moveAt(pageX, pageY) {
+	    lg2.style.left = pageX - lg2.offsetWidth / 2 + 'px';
+	    lg2.style.top = pageY - lg2.offsetHeight / 2 + 'px';
+	  }
+
+	  moveAt(event.pageX, event.pageY);
+
+	  function onMouseMove(event) {
+	    moveAt(event.pageX, event.pageY);
+	  }
+
+	  document.addEventListener('mousemove', onMouseMove);
+
+	  lg2.onmouseup = function() {
+	    document.removeEventListener('mousemove', onMouseMove);
+	    lg2.onmouseup = null;
+	  };
+
+		  lg2.ondragstart = function() {
+		  	return false;
+			};
+
+	};
+	
+	// lg3
+
+    lg3.onmousedown = function(event) {
+	  lg3.style.position = 'absolute';
+	  lg3.style.zIndex = 1000;
+
+	  document.body.append(lg3);
+
+	  function moveAt(pageX, pageY) {
+	    lg3.style.left = pageX - lg3.offsetWidth / 2 + 'px';
+	    lg3.style.top = pageY - lg3.offsetHeight / 2 + 'px';
+	  }
+
+	  moveAt(event.pageX, event.pageY);
+
+	  function onMouseMove(event) {
+	    moveAt(event.pageX, event.pageY);
+	  }
+
+	  document.addEventListener('mousemove', onMouseMove);
+
+	  lg3.onmouseup = function() {
+	    document.removeEventListener('mousemove', onMouseMove);
+	    lg3.onmouseup = null;
+	  };
+
+		  lg3.ondragstart = function() {
+		  	return false;
+			};
+
+	};
+
+	// lg4
+
+    lg4.onmousedown = function(event) {
+	  lg4.style.position = 'absolute';
+	  lg4.style.zIndex = 1000;
+
+	  document.body.append(lg4);
+
+	  function moveAt(pageX, pageY) {
+	    lg4.style.left = pageX - lg4.offsetWidth / 2 + 'px';
+	    lg4.style.top = pageY - lg4.offsetHeight / 2 + 'px';
+	  }
+
+	  moveAt(event.pageX, event.pageY);
+
+	  function onMouseMove(event) {
+	    moveAt(event.pageX, event.pageY);
+	  }
+
+	  document.addEventListener('mousemove', onMouseMove);
+
+	  lg4.onmouseup = function() {
+	    document.removeEventListener('mousemove', onMouseMove);
+	    lg4.onmouseup = null;
+	  };
+
+		  lg4.ondragstart = function() {
+		  	return false;
+			};
+
+	};
+
+	// lg5
+
+    lg5.onmousedown = function(event) {
+	  lg5.style.position = 'absolute';
+	  lg5.style.zIndex = 1000;
+
+	  document.body.append(lg5);
+
+	  function moveAt(pageX, pageY) {
+	    lg5.style.left = pageX - lg5.offsetWidth / 2 + 'px';
+	    lg5.style.top = pageY - lg5.offsetHeight / 2 + 'px';
+	  }
+
+	  moveAt(event.pageX, event.pageY);
+
+	  function onMouseMove(event) {
+	    moveAt(event.pageX, event.pageY);
+	  }
+
+	  document.addEventListener('mousemove', onMouseMove);
+
+	  lg5.onmouseup = function() {
+	    document.removeEventListener('mousemove', onMouseMove);
+	    lg5.onmouseup = null;
+	  };
+
+		  lg5.ondragstart = function() {
+		  	return false;
+			};
+
+	};
+
+	// lg6
+
+    lg6.onmousedown = function(event) {
+	  lg6.style.position = 'absolute';
+	  lg6.style.zIndex = 1000;
+
+	  document.body.append(lg6);
+
+	  function moveAt(pageX, pageY) {
+	    lg6.style.left = pageX - lg6.offsetWidth / 2 + 'px';
+	    lg6.style.top = pageY - lg6.offsetHeight / 2 + 'px';
+	  }
+
+	  moveAt(event.pageX, event.pageY);
+
+	  function onMouseMove(event) {
+	    moveAt(event.pageX, event.pageY);
+	  }
+
+	  document.addEventListener('mousemove', onMouseMove);
+
+	  lg6.onmouseup = function() {
+	    document.removeEventListener('mousemove', onMouseMove);
+	    lg6.onmouseup = null;
+	  };
+
+		  lg6.ondragstart = function() {
+		  	return false;
+			};
+
+	};
+
+	// lg7
+
+    lg7.onmousedown = function(event) {
+	  lg7.style.position = 'absolute';
+	  lg7.style.zIndex = 1000;
+
+	  document.body.append(lg7);
+
+	  function moveAt(pageX, pageY) {
+	    lg7.style.left = pageX - lg7.offsetWidth / 2 + 'px';
+	    lg7.style.top = pageY - lg7.offsetHeight / 2 + 'px';
+	  }
+
+	  moveAt(event.pageX, event.pageY);
+
+	  function onMouseMove(event) {
+	    moveAt(event.pageX, event.pageY);
+	  }
+
+	  document.addEventListener('mousemove', onMouseMove);
+
+	  lg7.onmouseup = function() {
+	    document.removeEventListener('mousemove', onMouseMove);
+	    lg7.onmouseup = null;
+	  };
+
+		  lg7.ondragstart = function() {
+		  	return false;
+			};
+
+	};
+
+
+	// lg8
+
+    lg8.onmousedown = function(event) {
+	  lg8.style.position = 'absolute';
+	  lg8.style.zIndex = 1000;
+
+	  document.body.append(lg8);
+
+	  function moveAt(pageX, pageY) {
+	    lg8.style.left = pageX - lg8.offsetWidth / 2 + 'px';
+	    lg8.style.top = pageY - lg8.offsetHeight / 2 + 'px';
+	  }
+
+	  moveAt(event.pageX, event.pageY);
+
+	  function onMouseMove(event) {
+	    moveAt(event.pageX, event.pageY);
+	  }
+
+	  document.addEventListener('mousemove', onMouseMove);
+
+	  lg8.onmouseup = function() {
+	    document.removeEventListener('mousemove', onMouseMove);
+	    lg8.onmouseup = null;
+	  };
+
+		  lg8.ondragstart = function() {
+		  	return false;
+			};
+
+	};
+
+	lg9.onmousedown = function(event) {
+	  lg9.style.position = 'absolute';
+	  lg9.style.zIndex = 1000;
+
+	  document.body.append(lg9);
+
+	  function moveAt(pageX, pageY) {
+	    lg9.style.left = pageX - lg9.offsetWidth / 2 + 'px';
+	    lg9.style.top = pageY - lg9.offsetHeight / 2 + 'px';
+	  }
+
+	  moveAt(event.pageX, event.pageY);
+
+	  function onMouseMove(event) {
+	    moveAt(event.pageX, event.pageY);
+	  }
+
+	  document.addEventListener('mousemove', onMouseMove);
+
+	  lg9.onmouseup = function() {
+	    document.removeEventListener('mousemove', onMouseMove);
+	    lg9.onmouseup = null;
+	  };
+
+		  lg9.ondragstart = function() {
+		  	return false;
+			};
+
+	};
+
+	// lg10
+
+    lg10.onmousedown = function(event) {
+	  lg10.style.position = 'absolute';
+	  lg10.style.zIndex = 1000;
+
+	  document.body.append(lg10);
+
+	  function moveAt(pageX, pageY) {
+	    lg10.style.left = pageX - lg10.offsetWidth / 2 + 'px';
+	    lg10.style.top = pageY - lg10.offsetHeight / 2 + 'px';
+	  }
+
+	  moveAt(event.pageX, event.pageY);
+
+	  function onMouseMove(event) {
+	    moveAt(event.pageX, event.pageY);
+	  }
+
+	  document.addEventListener('mousemove', onMouseMove);
+
+	  lg10.onmouseup = function() {
+	    document.removeEventListener('mousemove', onMouseMove);
+	    lg10.onmouseup = null;
+	  };
+
+		  lg10.ondragstart = function() {
+		  	return false;
+			};
+
+	};
+	</script>
+	
+
+</body>
+</html>
